@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/Assest/bg.png");
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0b0a0a;
+    opacity: .9;
+    height: 10vh;
+}
+.left-nav{
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 7px 15px;
+}
+.left-nav img{
+    width:70px;
+    height: 40px;
+    align-self: center;
+}
+.left-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.left-nav ul li{
+    list-style: none;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.left-nav ul li a:hover{
+    text-decoration: 3px underline #ffffff;
+    color: #ffffff;
+}
+ul .line{
+    padding-left: 50px;
+    border-left: 1px solid #ffffff;
+    gap: 10px;
+}
+.right-nav{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-nav button{
+    margin:7px 25px 0 0;
+    font-weight: 500;
+    font-size: 18px;
+    height: 43px;
+    padding: 5px 25px;
+    cursor: pointer;
+    background-color: #762396;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.right-nav button:hover{
+    text-decoration: 3px underline #ffffff;
+}
+.hero-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero-section .heading_para h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.hero-section .heading_para p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+.btn button{
+    font-weight: 500;
+    font-size: 26px;
+    height: 43px;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: #762396;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    
+
+}
+.btn button:hover{
+    text-decoration: 3px underline #ffffff;
+
+}
+
+
